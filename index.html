@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Webstats</title>
+    <!-- <link rel="stylesheet" type="text/css" href="bower_components/semantic/dist/semantic.min.css"> -->
+
+    <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/semantic/dist/semantic.min.js"></script>
+    <script src="bower_components/babel/browser.min.js"></script>
+    <script src="bower_components/react/react-with-addons.js"></script>
+    <script src="bower_components/react/react-dom.js"></script> -->
+
+    <link rel="stylesheet" type="text/css" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    
+    
+
+
+  </head>
+  <body>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <!-- We are using node <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>. -->
+
+
+    <!-- The URL bar -->
+    <div class="row">
+      <div id="url-container" class="row">
+      <div class="col m8 push-m2">
+        <div class="card col m12">
+          <div class="card-content">
+            <input type="text" name="url" id="url" placeholder="http://" class="col s12">
+            <input type="submit" name="" value="Analyze" class="btn col s4 push-s4 red">
+            <br><br>
+          </div>
+        </div>
+        </div>  
+      </div>
+    </div>
+
+    <!-- The Screenshot -->
+    <div class="row">
+        <div class="col m8 push-m2">
+          <div class="card">
+            <div class="card-image">
+              <img src="public/images/screenshot.jpeg">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="container">
+        
+      </div>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./bower_components/jquery/dist/jquery.min.js');
+    require('./bower_components/semantic/dist/semantic.min.js');
+    require('./bower_components/babel/browser.min.js');
+    require('./bower_components/react/react-with-addons.js');
+    require('./bower_components/react/react-dom.js')
+
+
+    require('./renderer.js');
+  </script>
+</html>
