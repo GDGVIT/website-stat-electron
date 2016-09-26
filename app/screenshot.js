@@ -6,7 +6,7 @@ class Screenshot extends React.Component{
 	render(){
 		return(
 			<div className="center">
-				The Screenshot should come up here!
+				The Screenshot should come up here! {this.props.url}
 			</div>
 		)
 	}

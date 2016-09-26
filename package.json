@@ -1,6 +1,6 @@
 {
   "name": "website-stats",
-  "productName":"GDG Website Stats",
+  "productName": "GDG Website Stats",
   "version": "1.0.0",
   "description": "Desktop tool to display statistics for website developers",
   "main": "main.js",
@@ -22,5 +22,8 @@
     "react": "^0.14.8",
     "react-autocomplete": "^1.0.0-rc2",
     "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "electron-react-devtools": "^0.4.0"
   }
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import UrlBar from './url_bar.js';
 import Screenshot from './screenshot.js';
+import Contributor from './contributor.js';
 // Search component created as a class
 
 /*var React=require('react');
@@ -15,13 +16,13 @@ class Main extends React.Component {
         return (
             <div>
               <UrlBar/>
-              <Screenshot/>
+              <Screenshot url="http://google.com"/>
             </div>
         );
     }
 }
 
 // Render to ID content in the DOM
-ReactDOM.render( <Main/ > ,
+ReactDOM.render( <Main/> ,
     document.getElementById('content')
 );
