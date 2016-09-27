@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e60352-7b8f-4c01-be46-749544b7ff3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/files_loaded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/loadtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/mock/joke.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/screenshot.js" afterPath="$PROJECT_DIR$/app/screenshot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/url_bar.js" afterPath="$PROJECT_DIR$/app/url_bar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bundle.js" afterPath="$PROJECT_DIR$/public/js/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renderer.js" afterPath="$PROJECT_DIR$/renderer.js" />
     </list>
     <ignored path="website-stat-electron.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,8 +66,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="90">
-                <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <first_editor relative-caret-position="36">
+                <caret line="2" column="58" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="58" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -345,12 +334,12 @@
       <workItem from="1474887593479" duration="8046000" />
       <workItem from="1474903994513" duration="4249000" />
       <workItem from="1474909208515" duration="1784000" />
-      <workItem from="1474917780387" duration="6252000" />
+      <workItem from="1474917780387" duration="6399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20331000" />
+    <option name="totallyTimeSpent" value="20478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="1" />
@@ -677,8 +666,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="58" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="58" />
             <folding />
           </first_editor>
           <second_editor />
