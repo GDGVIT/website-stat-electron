@@ -8,18 +8,24 @@ ReactDOM=require('react-dom');*/
 class UrlBar extends React.Component {
     constructor(){
         super();
-        this.state={data:[]};
+        this.state={
+            data:[],
+            joke:''
+        };
         this.processForm=this.processForm.bind(this);
     }
     processForm(e){
         e.preventDefault();
         $.ajax({
-            url:'http://api.icndb.com/jokes/random',
+            url:'./public/mock/joke.json',
             datatype:'json',
             cache:false,
             success: (data) => {
-                this.setState({data: data});
-                console.log(data);
+                this.setState({
+                    data:data,
+                    joke:data.value.joke.toString()
+                });
+                console.log(joke);
             },
             error: (xhr, status, err) => {
                 console.error(status, err.toString());
@@ -27,37 +33,45 @@ class UrlBar extends React.Component {
         });
     }
     render() {
+        var jokedata=this.state.data;
         return (
-            <form className="row">
+            <div className="row col s12">
+            <form>
                 <div className="col m8 push-m2">
                     <div className="card col s12">
-                        <div className="card-content">
-                            <input className="col s12" placeholder="http://google.com"/>
-                            <input type="submit" className="btn" value="Process" onClick={this.processForm}/>
-                            <Joke jokearray={this.state.data}/>
+                        <div className="card-content row">
+                            <input className="col m12" placeholder="http://"/>
+                            <input type="submit" className="btn col m4 push-m4" value="Process" onClick={this.processForm}/>
                         </div>
                     </div>
+
                 </div>
+
             </form>
+            <div className="card col s8 push-s2"> <div className="card-content"><div className="card-title">{jokedata}</div></div></div>
+            </div>
         );
     }
 }
 
-class Joke extends React.Component{
+UrlBar.propTypes={
+    data:React.PropTypes.array,
+    joke:React.PropTypes.string
+}
+
+/*class Joke extends React.Component{
     constructor(){
         super();
-        this.setState({
-            jokearray:[]
-        })
+        this.state={jokearray:[]};
     }
     render(){
         var joke=this.props.jokearray;
         return(
-            <div>
+            <div><div className="card"> <div className="card-content"><div className="card-title">{jokedata}</div></div></div>
                 {jokearray.value.joke}
             </div>
         )
     }
-}
+}*/
 
 export default UrlBar;
