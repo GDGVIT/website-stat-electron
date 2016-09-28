@@ -1,25 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UrlBar from './url_bar.js';
+import MainApp from './main_app.js';
 import Screenshot from './screenshot.js';
 import Contributor from './contributor.js';
 import LoadTime from './loadtime';
-// Search component created as a class
-class Main extends React.Component {
+import Requests from './requests';
+import PageSize from './page_size';
 
-    // render method is most important
-    // render method returns JSX template
+class Main extends React.Component {
     render() {
         return (
             <div className="row">
-              <UrlBar className="col s12"/>
-              <Screenshot url="http://google.com" className="col s6"/>
-                <div className="col m3">
-                    <LoadTime time="32.54"/>
-                </div>
-                <div className="col m3">
-                    <LoadTime time="33.51"/>
-                </div>
+              <MainApp className="col s12"/>
             </div>
         );
     }
@@ -29,3 +21,5 @@ class Main extends React.Component {
 ReactDOM.render(<Main/>,
     document.getElementById('content')
 );
+
+console.log(Requests);
