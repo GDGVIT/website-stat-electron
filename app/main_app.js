@@ -5,6 +5,7 @@ import Contributor from './contributor.js';
 import LoadTime from './loadtime';
 import Requests from './requests';
 import PageSize from './page_size';
+import Rulelist from './rule_list';
 class MainApp extends React.Component {
     constructor(){
         super();
@@ -604,9 +605,9 @@ class MainApp extends React.Component {
                     </div>
                 </div>
             </form>
-
-                {/*The details will begin from here*/}
             </div>
+                {/*The details will begin from here*/}
+
                 <Screenshot url={this.state.dataurl} className="col s6"/>
                 <div className="row">
                     <div className="col s8 push-s2">
@@ -616,6 +617,8 @@ class MainApp extends React.Component {
                     <div className="col s3 red">
                         <Card title="Grade" content={this.state.datagrade} postdata="/100"/>
                     </div>
+
+
                 <div className="col s3">
                     <Card title="No. of Resources" content={this.state.dataresources}/>
                 </div>
@@ -647,7 +650,7 @@ class MainApp extends React.Component {
                     <Card title="No. of CSS files" content={this.state.datacss}/>
                 </div>
 
-                <div className="col s12"><Card title={this.state.datarules.AvoidLandingPageRedirects.localizedRuleName} content={this.state.datarules.AvoidLandingPageRedirects.summary.format}/></div>
+                {/*<div className="col s12"><Card title={this.state.datarules.AvoidLandingPageRedirects.localizedRuleName} content={this.state.datarules.AvoidLandingPageRedirects.summary.format}/></div>
                 <div className="col s12"><Card title={this.state.datarules.EnableGzipCompression.localizedRuleName}/></div>
                 <div className="col s12"><Card title={this.state.datarules.LeverageBrowserCaching.localizedRuleName}/></div>
                 <div className="col s12"><Card title={this.state.datarules.MainResourceServerResponseTime.localizedRuleName}/></div>
@@ -655,7 +658,9 @@ class MainApp extends React.Component {
                 <div className="col s12"><Card title={this.state.datarules.MinifyJavaScript.localizedRuleName}/></div>
                 <div className="col s12"><Card title={this.state.datarules.MinimizeRenderBlockingResources.localizedRuleName}/></div>
                 <div className="col s12"><Card title={this.state.datarules.OptimizeImages.localizedRuleName}/></div>
-                <div className="col s12"><Card title={this.state.datarules.PrioritizeVisibleContent.localizedRuleName}/></div>
+                <div className="col s12"><Card title={this.state.datarules.PrioritizeVisibleContent.localizedRuleName}/></div>*/}
+
+                <Rulelist datarules={this.state.datarules}/>
             </div>
         );
     }
