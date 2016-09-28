@@ -10,6 +10,7 @@ class MainApp extends React.Component {
     constructor(){
         super();
         this.state={
+            inurl:'facebook.com',
             data:[],
             dataurl:'http://',
             datatitle:'Title',
@@ -24,544 +25,28 @@ class MainApp extends React.Component {
             datajsbytes:0,
             datajs:0,
             datacss:0,
-            datarules:{
-            "AvoidLandingPageRedirects": {
-                "localizedRuleName": "Avoid landing page redirects",
-                    "ruleImpact": 0,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "Your page has no redirects. Learn more about {{BEGIN_LINK}}avoiding landing page redirects{{END_LINK}}.",
-                        "args": [
-                        {
-                            "type": "HYPERLINK",
-                            "key": "LINK",
-                            "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
-                        }
-                    ]
-                }
-            },
-            "EnableGzipCompression": {
-                "localizedRuleName": "Enable compression",
-                    "ruleImpact": 0,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "You have compression enabled. Learn more about {{BEGIN_LINK}}enabling compression{{END_LINK}}.",
-                        "args": [
-                        {
-                            "type": "HYPERLINK",
-                            "key": "LINK",
-                            "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
-                        }
-                    ]
-                }
-            },
-            "LeverageBrowserCaching": {
-                "localizedRuleName": "Leverage browser caching",
-                    "ruleImpact": 5.494543650793651,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
-                },
-                "urlBlocks": [
-                    {
-                        "header": {
-                            "format": "{{BEGIN_LINK}}Leverage browser caching{{END_LINK}} for the following cacheable resources:",
-                            "args": [
-                                {
-                                    "type": "HYPERLINK",
-                                    "key": "LINK",
-                                    "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
-                                }
-                            ]
-                        },
-                        "urls": [
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/images/rkbadg.png"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/images/rkbgit.png"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/images/rkbkrs.png"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/css/materialize.min.css"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/font/material-design-icons/Material-Design-Icons.woff"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/font/roboto/Roboto-Bold.woff"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/font/roboto/Roboto-Light.woff"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/font/roboto/Roboto-Medium.woff"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/font/roboto/Roboto-Regular.woff"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/font/roboto/Roboto-Thin.woff"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}} ({{LIFETIME}})",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/js/materialize.min.js"
-                                        },
-                                        {
-                                            "type": "DURATION",
-                                            "key": "LIFETIME",
-                                            "value": "10 minutes"
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            "MainResourceServerResponseTime": {
-                "localizedRuleName": "Reduce server response time",
-                    "ruleImpact": 0,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "Your server responded quickly. Learn more about {{BEGIN_LINK}}server response time optimization{{END_LINK}}.",
-                        "args": [
-                        {
-                            "type": "HYPERLINK",
-                            "key": "LINK",
-                            "value": "https://developers.google.com/speed/docs/insights/Server"
-                        }
-                    ]
-                }
-            },
-            "MinifyCss": {
-                "localizedRuleName": "Minify CSS",
-                    "ruleImpact": 0,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "Your CSS is minified. Learn more about {{BEGIN_LINK}}minifying CSS{{END_LINK}}.",
-                        "args": [
-                        {
-                            "type": "HYPERLINK",
-                            "key": "LINK",
-                            "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
-                        }
-                    ]
-                }
-            },
-            "MinifyHTML": {
-                "localizedRuleName": "Minify HTML",
-                    "ruleImpact": 0,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "Your HTML is minified. Learn more about {{BEGIN_LINK}}minifying HTML{{END_LINK}}.",
-                        "args": [
-                        {
-                            "type": "HYPERLINK",
-                            "key": "LINK",
-                            "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
-                        }
-                    ]
-                }
-            },
-            "MinifyJavaScript": {
-                "localizedRuleName": "Minify JavaScript",
-                    "ruleImpact": 0,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "Your JavaScript content is minified. Learn more about {{BEGIN_LINK}}minifying JavaScript{{END_LINK}}.",
-                        "args": [
-                        {
-                            "type": "HYPERLINK",
-                            "key": "LINK",
-                            "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
-                        }
-                    ]
-                }
-            },
-            "MinimizeRenderBlockingResources": {
-                "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
-                    "ruleImpact": 8,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "Your page has {{NUM_SCRIPTS}} blocking script resources and {{NUM_CSS}} blocking CSS resources. This causes a delay in rendering your page.",
-                        "args": [
-                        {
-                            "type": "INT_LITERAL",
-                            "key": "NUM_SCRIPTS",
-                            "value": "1"
-                        },
-                        {
-                            "type": "INT_LITERAL",
-                            "key": "NUM_CSS",
-                            "value": "2"
-                        }
-                    ]
-                },
-                "urlBlocks": [
-                    {
-                        "header": {
-                            "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
-                        }
-                    },
-                    {
-                        "header": {
-                            "format": "{{BEGIN_LINK}}Remove render-blocking JavaScript{{END_LINK}}:",
-                            "args": [
-                                {
-                                    "type": "HYPERLINK",
-                                    "key": "LINK",
-                                    "value": "https://developers.google.com/speed/docs/insights/BlockingJS"
-                                }
-                            ]
-                        },
-                        "urls": [
-                            {
-                                "result": {
-                                    "format": "{{URL}}",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/js/materialize.min.js"
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "header": {
-                            "format": "{{BEGIN_LINK}}Optimize CSS Delivery{{END_LINK}} of the following:",
-                            "args": [
-                                {
-                                    "type": "HYPERLINK",
-                                    "key": "LINK",
-                                    "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
-                                }
-                            ]
-                        },
-                        "urls": [
-                            {
-                                "result": {
-                                    "format": "{{URL}}",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/materialize/css/materialize.min.css"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "{{URL}}",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "https://fonts.googleapis.com/css?family=Source+Code+Pro"
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            "OptimizeImages": {
-                "localizedRuleName": "Optimize images",
-                    "ruleImpact": 136.32600000000002,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "Properly formatting and compressing images can save many bytes of data."
-                },
-                "urlBlocks": [
-                    {
-                        "header": {
-                            "format": "{{BEGIN_LINK}}Optimize the following images{{END_LINK}} to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
-                            "args": [
-                                {
-                                    "type": "HYPERLINK",
-                                    "key": "LINK",
-                                    "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
-                                },
-                                {
-                                    "type": "BYTES",
-                                    "key": "SIZE_IN_BYTES",
-                                    "value": "1.3MiB"
-                                },
-                                {
-                                    "type": "PERCENTAGE",
-                                    "key": "PERCENTAGE",
-                                    "value": "93%"
-                                }
-                            ]
-                        },
-                        "urls": [
-                            {
-                                "result": {
-                                    "format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/images/rkbkrs.png"
-                                        },
-                                        {
-                                            "type": "BYTES",
-                                            "key": "SIZE_IN_BYTES",
-                                            "value": "829.8KiB"
-                                        },
-                                        {
-                                            "type": "PERCENTAGE",
-                                            "key": "PERCENTAGE",
-                                            "value": "93%"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/images/rkbadg.png"
-                                        },
-                                        {
-                                            "type": "BYTES",
-                                            "key": "SIZE_IN_BYTES",
-                                            "value": "430.3KiB"
-                                        },
-                                        {
-                                            "type": "PERCENTAGE",
-                                            "key": "PERCENTAGE",
-                                            "value": "94%"
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "result": {
-                                    "format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
-                                    "args": [
-                                        {
-                                            "type": "URL",
-                                            "key": "URL",
-                                            "value": "http://rahulakrishna.github.io/images/rkbgit.png"
-                                        },
-                                        {
-                                            "type": "BYTES",
-                                            "key": "SIZE_IN_BYTES",
-                                            "value": "71.3KiB"
-                                        },
-                                        {
-                                            "type": "PERCENTAGE",
-                                            "key": "PERCENTAGE",
-                                            "value": "85%"
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            "PrioritizeVisibleContent": {
-                "localizedRuleName": "Prioritize visible content",
-                    "ruleImpact": 0,
-                    "groups": [
-                    "SPEED"
-                ],
-                    "summary": {
-                    "format": "You have the above-the-fold content properly prioritized. Learn more about {{BEGIN_LINK}}prioritizing visible content{{END_LINK}}.",
-                        "args": [
-                        {
-                            "type": "HYPERLINK",
-                            "key": "LINK",
-                            "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
-                        }
-                    ]
-                }
-            }
-        }
+            datarules:[]
         };
         this.processForm=this.processForm.bind(this);
+        this.handleChange=this.handleChange.bind(this);
+    }
+    handleChange(e){
+        this.setState({
+           inurl:e.target.value
+        });
     }
     processForm(e){
         e.preventDefault();
+        const url=this.state.inurl;
         $.ajax({
-            url:'./public/mock/mock_webdata.json',
+            url:'https://www.googleapis.com/pagespeedonline/v2/runPagespeed?url=http%3A%2F%2F'+url+'&key=AIzaSyBKuUWqMYnnvt4JpJzL55a7MsYns7Jzxv8',
             dataType:'json',
             cache:false,
+            beforesend(){
+                this.setState({
+                    datatitle:'Loading...'
+                })
+            },
             success: (data) => {
                 this.setState({
                     data:data,
@@ -599,7 +84,7 @@ class MainApp extends React.Component {
                 <div className="col m8 push-m2">
                     <div className="card col s12">
                         <div className="card-content row">
-                            <input className="col m12" placeholder="http://"/>
+                            <input className="col m12" placeholder="http://" value={this.state.inurl} onChange={this.handleChange}/>
                             <input type="submit" className="btn red col m4 push-m4" value="Process" onClick={this.processForm}/>
                         </div>
                     </div>
@@ -614,7 +99,7 @@ class MainApp extends React.Component {
                         <Card title={this.state.dataurl} content={this.state.datatitle}/>
                     </div>
                 </div>
-                    <div className="col s3 red">
+                    <div className="col s3">
                         <Card title="Grade" content={this.state.datagrade} postdata="/100"/>
                     </div>
 
@@ -660,7 +145,7 @@ class MainApp extends React.Component {
                 <div className="col s12"><Card title={this.state.datarules.OptimizeImages.localizedRuleName}/></div>
                 <div className="col s12"><Card title={this.state.datarules.PrioritizeVisibleContent.localizedRuleName}/></div>*/}
 
-                <Rulelist datarules={this.state.datarules}/>
+
             </div>
         );
     }

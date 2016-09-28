@@ -10,7 +10,7 @@ class Rulelist extends React.Component{
     }
     render(){
         const rules=this.props.datarules.map((rule)=>{
-           return <Card title={rule.localizedRuleName}/>
+           return <Card title={rule}/>
         });
         return(
             <div className="col s12">
@@ -19,5 +19,7 @@ class Rulelist extends React.Component{
         );
     }
 }
+
+
 
 export default Rulelist;
