@@ -639,7 +639,7 @@ class MainApp extends React.Component {
             </form>
             </div>
                 {/*The details will begin from here*/}
-                
+
                 <Screenshot url={this.state.dataurl} className="col s6"/>
                 <div className="row">
                     <div className="col s8 push-s2">
