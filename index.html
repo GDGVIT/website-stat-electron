@@ -9,16 +9,18 @@
   <body>
     <div id="content"></div>
   </body>
+  <!--The script srcs are for the web version. When deploying to production, these should be removed.-->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script>window.$ = window.jQuery = require('./bower_components/jquery/dist/jquery.min.js');</script>
+  <script src="public/js/bundle.js"></script>
   <script>
     // You can also require other files to run in this process
     require('./renderer.js');
     /*require('./app/app.js');*/
     require('./public/js/bundle.js');
 
-    
-  /*if (process.env.NODE_ENV !== 'production') {
-    require('electron-react-devtools').inject()
-  }*/
+    if (process.env.NODE_ENV !== 'production') {
+      require('electron-react-devtools').inject();
+    }
   </script>
 </html>

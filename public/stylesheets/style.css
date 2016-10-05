@@ -1,3 +1,11 @@
 *{
     font-family: Lato;
 }
+
+.visible{
+    visibility: visible; text-align: center; width: 100%;
+}
+
+.hidden{
+    visibility: hidden; text-align: center; width: 100%;
+}

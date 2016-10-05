@@ -11,6 +11,7 @@ class MainApp extends React.Component {
     constructor(){
         super();
         this.state={
+            percent:0,
             inurl:'',
             data:[],
             dataurl:'http://',
@@ -26,6 +27,7 @@ class MainApp extends React.Component {
             datajsbytes:0,
             datajs:0,
             datacss:0,
+            loadervisibility:'hidden',
             datarules: {"AvoidLandingPageRedirects": {
                 "localizedRuleName": "Avoid landing page redirects",
                 "ruleImpact": 0,
@@ -553,6 +555,9 @@ class MainApp extends React.Component {
                         ]
                     }
                 }
+            },
+            progressstyle:{
+                width:0
             }
         };
         this.processForm=this.processForm.bind(this);
@@ -566,64 +571,87 @@ class MainApp extends React.Component {
     processForm(e){
         e.preventDefault();
         const url=this.state.inurl;
-        $.ajax({
-            /*url:'https://www.googleapis.com/pagespeedonline/v2/runPagespeed?url=http%3A%2F%2F'+url+'&key=AIzaSyBKuUWqMYnnvt4JpJzL55a7MsYns7Jzxv8',*/
-            url:'./public/mock/mock_webdata.json',
-            dataType:'json',
-            cache:false,
-            xhr(){
-                const xhr = new window.XMLHttpRequest();
-                //Upload progress
-                xhr.upload.addEventListener("progress", function(evt){
-                    if (evt.lengthComputable) {
-                        const percentComplete = evt.loaded / evt.total;
-                        //Do something with upload progress
-                        console.log(percentComplete);
-                    }
-                }, false);
-                //Download progress
-                xhr.addEventListener("progress", function(evt){
-                    if (evt.lengthComputable) {
-                        const percentComplete = evt.loaded / evt.total;
-                        //Do something with download progress
-                        console.log(percentComplete);
-                    }
-                    else {
-                        console.log('fuck happened');
-                    }
-                }, false);
-                return xhr;
-            },
-            success: (data) => {
-                this.setState({
-                    data:data,
-                    dataurl:data.id,
-                    datatitle:data.title,
-                    datagrade:data.ruleGroups.SPEED.score,
-                    dataresources:data.pageStats.numberResources,
-                    datahosts:data.pageStats.numberHosts,
-                    databytes:data.pageStats.totalRequestBytes,
-                    datastaticresources:data.pageStats.numberStaticResources,
-                    datahtmlbytes:data.pageStats.htmlResponseBytes,
-                    datacssbytes:data.pageStats.cssResponseBytes,
-                    dataimagebytes:data.pageStats.imageResponseBytes,
-                    datajsbytes:data.pageStats.javascriptResponseBytes,
-                    datajs:data.pageStats.numberJsResources,
-                    datacss:data.pageStats.numberCssResources,
-                    datarules:data.formattedResults.ruleResults
-                });
-                console.log(this.state.data);
-                console.log(this.state.datarules.AvoidLandingPageRedirects.localizedRuleName);
-            },
-            error: (xhr, status, err) => {
-                console.error(status, err.toString());
-            }
+        this.setState({
+            loadervisibility:'hidden'
         });
+        /*const expression=[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*);
+        const regex=new RegExp(expression);*/
+        if(1) {
+            $.ajax({
+                url: 'https://www.googleapis.com/pagespeedonline/v2/runPagespeed?url=http%3A%2F%2F' + url + '&key=AIzaSyBKuUWqMYnnvt4JpJzL55a7MsYns7Jzxv8',
+                /*url:'./public/mock/mock_webdata.json',*/
+                dataType: 'json',
+                cache: false,
+                xhr(){
+                    const xhr = new window.XMLHttpRequest();
+                    //Upload progress
+                    xhr.upload.addEventListener("progress", function (evt) {
+                        if (evt.lengthComputable) {
+                            let percentComplete = evt.loaded / evt.total;
+                            //Do something with upload progress
+                            this.state={
+                                percent:percentComplete
+                            }
+                        }
+                        else {
+                            console.log('fuck happened beforehand');
+                        }
+                    }, false);
+                    //Download progress
+                    xhr.addEventListener("progress", function (evt) {
+                        if (evt.lengthComputable) {
+                            let percentComplete = evt.loaded / evt.total;
+                            //Do something with download progress
+                            console.log(percentComplete);
+                            console.log(evt.loaded);
+                            console.log(evt.total);
+                            this.state={
+                                percent:percentComplete
+                            }
+                        }
+                        else {
+                            console.log('fuck happened');
+                        }
+                    }, false);
+                    return xhr;
+                },
+                success: (data) => {
+                    this.setState({
+                        data: data,
+                        dataurl: data.id,
+                        datatitle: data.title,
+                        datagrade: data.ruleGroups.SPEED.score,
+                        dataresources: data.pageStats.numberResources,
+                        datahosts: data.pageStats.numberHosts,
+                        databytes: data.pageStats.totalRequestBytes,
+                        datastaticresources: data.pageStats.numberStaticResources,
+                        datahtmlbytes: data.pageStats.htmlResponseBytes,
+                        datacssbytes: data.pageStats.cssResponseBytes,
+                        dataimagebytes: data.pageStats.imageResponseBytes,
+                        datajsbytes: data.pageStats.javascriptResponseBytes,
+                        datajs: data.pageStats.numberJsResources,
+                        datacss: data.pageStats.numberCssResources,
+                        datarules: data.formattedResults.ruleResults,
+                        loadervisibility:'visible',
+                        progressstyle:{
+                            width:this.state.datagrade
+                        }
+                    });
+                    console.log(this.state.data);
+                    console.log(this.state.datarules.AvoidLandingPageRedirects.localizedRuleName);
+                },
+                error: (xhr, status, err) => {
+                    console.error(status, err.toString());
+                    alert("How many times have fuck happened in your life?, Well, this is one of those times.");
+                }
+            });
+        }
+        else{
+            alert('Invalid URL!');
+        }
     }
     render() {
-        /*const pageRules=this.state.data.datarules.map((rule)=>{
-           return <Card content={rule.localizedRuleName}/>
-        });*/
+        console.log(this.state.loadervisibility);
         return (
             <div>
             <div className="row col s12">
@@ -639,7 +667,7 @@ class MainApp extends React.Component {
             </form>
             </div>
                 {/*The details will begin from here*/}
-
+                <div className={this.state.loadervisibility}>{this.state.percent}</div>
                 <Screenshot url={this.state.dataurl} className="col s6"/>
                 <div className="row">
                     <div className="col s8 push-s2">
@@ -649,6 +677,9 @@ class MainApp extends React.Component {
                 <div className="row">
                     <div className="col s4 push-s4">
                         <PageGrade speed={this.state.datagrade}/>
+                        <div class="progress">
+                            <div class="determinate" style={this.state.progressstyle}></div>
+                        </div>
                     </div>
                     </div>
 
@@ -660,6 +691,7 @@ class MainApp extends React.Component {
                     <Card title="No. of Hosts" content={this.state.datahosts}/>
                 </div>
                 <div className="col s3">
+                    {/*TODO: Remove these from Cards and make a new Size card which will convert Bytes to MBs*/}
                     <Card title="Size" content={this.state.databytes} postdata=" bytes" color="red"/>
                 </div>
                 <div className="col s3">
