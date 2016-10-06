@@ -8,7 +8,7 @@
     "start": "electron main.js",
     "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
   },
-  "author": "Scotch",
+  "author": "Rahul A. Krishna",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
