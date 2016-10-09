@@ -1,12 +1,11 @@
 import React from 'react';
 import Card from './card.js';
 import Screenshot from './screenshot.js';
-import Contributor from './contributor.js';
 import LoadTime from './loadtime';
 import Requests from './requests';
-import PageSize from './page_size';
 import Rulelist from './rule_list';
 import PageGrade from './page_grade';
+import Size from './size';
 class MainApp extends React.Component {
     constructor(){
         super();
@@ -557,7 +556,7 @@ class MainApp extends React.Component {
                 }
             },
             progressstyle:{
-                width:0
+                width:'0%'
             }
         };
         this.processForm=this.processForm.bind(this);
@@ -633,12 +632,9 @@ class MainApp extends React.Component {
                         datacss: data.pageStats.numberCssResources,
                         datarules: data.formattedResults.ruleResults,
                         loadervisibility:'visible',
-                        progressstyle:{
-                            width:this.state.datagrade
-                        }
                     });
-                    console.log(this.state.data);
-                    console.log(this.state.datarules.AvoidLandingPageRedirects.localizedRuleName);
+                    console.log(this.state.datagrade);
+                    this.updateProgress();
                 },
                 error: (xhr, status, err) => {
                     console.error(status, err.toString());
@@ -650,8 +646,15 @@ class MainApp extends React.Component {
             alert('Invalid URL!');
         }
     }
+    updateProgress(){
+        this.setState({
+            progressstyle: {
+                width: this.state.datagrade+'%'
+            }
+        });
+        console.log(progresstyle);
+    }
     render() {
-        console.log(this.state.loadervisibility);
         return (
             <div>
             <div className="row col s12">
@@ -677,11 +680,12 @@ class MainApp extends React.Component {
                 <div className="row">
                     <div className="col s4 push-s4">
                         <PageGrade speed={this.state.datagrade}/>
-                        <div class="progress">
-                            <div class="determinate" style={this.state.progressstyle}></div>
+                        <div className="progress">
+                            <div className="determinate" style={this.state.progressstyle}></div>
                         </div>
                     </div>
                     </div>
+                <Size size="32"/>
 
 
                 <div className="col s3">

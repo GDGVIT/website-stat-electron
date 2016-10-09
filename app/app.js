@@ -1,11 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MainApp from './main_app.js';
-import Screenshot from './screenshot.js';
-import Contributor from './contributor.js';
-import LoadTime from './loadtime';
-import Requests from './requests';
-import PageSize from './page_size';
 
 class Main extends React.Component {
     render() {
@@ -21,5 +16,3 @@ class Main extends React.Component {
 ReactDOM.render(<Main/>,
     document.getElementById('content')
 );
-
-console.log(Requests);
