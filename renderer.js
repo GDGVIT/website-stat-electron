@@ -13,3 +13,12 @@ app.post('/joke',function (req,res) {
         res.json(JSON.parse(data));
     });
 });*/
+
+var notif= new.window.Notification('Complete!',{
+    body:'Hello!',
+    silent:true
+})
+
+notif.onclick=function () {
+    ipcRenderer.send('focusWindow',main);
+}

@@ -671,6 +671,7 @@ class MainApp extends React.Component {
             </div>
                 {/*The details will begin from here*/}
                 <div className="row">
+                    <h3 className="center">Summary</h3>
                     <div className="col s4 push-s4">
                         <div className="progress">
                             <div className="determinate" style={this.state.progressstyle}></div>
@@ -679,14 +680,12 @@ class MainApp extends React.Component {
                     </div>
                 </div>
                 <div className={this.state.loadervisibility}>{this.state.percent}</div>
-                <Screenshot url={this.state.dataurl} className="col s6"/>
+                {/*<Screenshot url={this.state.dataurl} className="col s6"/>*/}
                 <div className="row">
                     <div className="col s8 push-s2">
                         <Card title={this.state.dataurl} content={this.state.datatitle}/>
                     </div>
                 </div>
-
-                <Size size="32"/>
 
 
                 <div className="col s3">
@@ -697,7 +696,7 @@ class MainApp extends React.Component {
                 </div>
                 <div className="col s3">
                     {/*TODO: Remove these from Cards and make a new Size card which will convert Bytes to MBs*/}
-                    <Card title="Size" content={this.state.databytes} postdata=" bytes" color="red"/>
+                    <Size title="Size" content={this.state.databytes} postdata=" bytes" color="red"/>
                 </div>
                 <div className="col s3">
                     <Card title="Static Resources" content={this.state.datastaticresources} className="red"/>
@@ -720,7 +719,6 @@ class MainApp extends React.Component {
                 <div className="col s3">
                     <Card title="No. of CSS files" content={this.state.datacss}/>
                 </div>
-
                 <Rulelist rules={this.state.datarules}/>
             </div>
         );

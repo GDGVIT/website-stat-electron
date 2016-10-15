@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="60e60352-7b8f-4c01-be46-749544b7ff3d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/card.js" afterPath="$PROJECT_DIR$/app/card.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main_app.js" afterPath="$PROJECT_DIR$/app/main_app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/rule_list.js" afterPath="$PROJECT_DIR$/app/rule_list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/size.js" afterPath="$PROJECT_DIR$/app/size.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bundle.js" afterPath="$PROJECT_DIR$/public/js/bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renderer.js" afterPath="$PROJECT_DIR$/renderer.js" />
     </list>
     <ignored path="website-stat-electron.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +36,8 @@
       <file leaf-file-name="size.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/size.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="288">
+              <caret line="16" column="103" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -42,11 +45,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="card.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/card.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main_app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main_app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="581" column="18" selection-start-line="581" selection-start-column="18" selection-end-line="581" selection-end-column="18" />
+            <state relative-caret-position="288">
+              <caret line="707" column="97" selection-start-line="707" selection-start-column="97" selection-end-line="707" selection-end-column="97" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#365#28619#0" expanded="false" />
@@ -59,34 +72,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mock_webdata.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/mock/mock_webdata.json">
+      <file leaf-file-name="rule_list.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/rule_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="194" column="11" selection-start-line="194" selection-start-column="11" selection-end-line="194" selection-end-column="11" />
+            <state relative-caret-position="180">
+              <caret line="22" column="243" selection-start-line="22" selection-start-column="243" selection-end-line="22" selection-end-column="243" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +85,7 @@
       <file leaf-file-name="page_grade.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/page_grade.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="-198">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
@@ -124,8 +115,8 @@
       <file leaf-file-name="renderer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/renderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="360">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -134,8 +125,18 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state relative-caret-position="438">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -158,7 +159,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/screenshot.js" />
-        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/app/loadtime.js" />
         <option value="$PROJECT_DIR$/app/files_loaded.js" />
         <option value="$PROJECT_DIR$/public/mock/joke.json" />
@@ -170,21 +170,22 @@
         <option value="$PROJECT_DIR$/app/url_bar.js" />
         <option value="$PROJECT_DIR$/app/main.js" />
         <option value="$PROJECT_DIR$/rule_list.js" />
-        <option value="$PROJECT_DIR$/app/rule_list.js" />
         <option value="$PROJECT_DIR$/public/mock/mock_webdata.json" />
         <option value="$PROJECT_DIR$/app/page_grade.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/loading.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/renderer.js" />
-        <option value="$PROJECT_DIR$/app/card.js" />
         <option value="$PROJECT_DIR$/public/js/bundle.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/main_app_semantic.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
-        <option value="$PROJECT_DIR$/app/main_app.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/renderer.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/app/card.js" />
         <option value="$PROJECT_DIR$/app/size.js" />
+        <option value="$PROJECT_DIR$/app/main_app.js" />
+        <option value="$PROJECT_DIR$/app/rule_list.js" />
       </list>
     </option>
   </component>
@@ -200,9 +201,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="28" />
+    <option name="y" value="41" />
     <option name="width" value="1366" />
-    <option name="height" value="740" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -257,6 +258,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website-stat-electron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website-stat-electron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website-stat-electron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="website-stat-electron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -272,7 +305,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="mock&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;size&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/size.js&#10;main&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;page&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/page_grade.js&#10;app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;inde&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;app.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;packa&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;index&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;bund&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/js/bundle.js&#10;card&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/card.js&#10;warni&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;contributo&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/contributor.js&#10;warnin&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;joke&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/joke.json&#10;render&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;styl&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;READ&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;moc&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;package.json&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;package&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/bower_components/materialize/package.js&#10;ap&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;st&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;req&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;re&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;urlbar&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;url&#9;null&#9;null&#10;README&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;renderer.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;load&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;scree&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;ur&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;scre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;oad&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;cre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;rend&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;renderer&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js" />
+    <property name="SearchEverywhereHistoryKey" value="card&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/card.js&#10;size&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/size.js&#10;rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;main_app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;page&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/page_grade.js&#10;render&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;main&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;Rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;index&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;mock&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;inde&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;app.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;packa&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;bund&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/js/bundle.js&#10;warni&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;contributo&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/contributor.js&#10;warnin&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;joke&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/joke.json&#10;styl&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;READ&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;moc&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;package.json&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;package&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/bower_components/materialize/package.js&#10;ap&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;st&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;req&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;re&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;urlbar&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;url&#9;null&#9;null&#10;README&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;renderer.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;load&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;scree&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;ur&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;scre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;oad&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;cre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;rend&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;renderer&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -370,12 +403,12 @@
       <workItem from="1476379393364" duration="512000" />
       <workItem from="1476416394725" duration="5340000" />
       <workItem from="1476503709098" duration="679000" />
-      <workItem from="1476504871698" duration="187000" />
+      <workItem from="1476504871698" duration="11676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107509000" />
+    <option name="totallyTimeSpent" value="118998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,10 +420,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1366" height="740" extended-state="7" />
-    <editor active="false" />
+    <frame x="0" y="41" width="1366" height="727" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24869695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24869695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -672,21 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/rule_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/mock/joke.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -723,39 +741,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main_app_semantic.js" />
-    <entry file="file://$PROJECT_DIR$/app/main_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="581" column="18" selection-start-line="581" selection-start-column="18" selection-end-line="581" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#365#28619#0" expanded="false" />
-            <element signature="e#885#1561#0" expanded="false" />
-            <element signature="e#1604#2327#0" expanded="false" />
-            <element signature="e#2371#14246#0" expanded="false" />
-            <element signature="e#14298#15033#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/size.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/mock/mock_webdata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -782,14 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/page_grade.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -808,16 +786,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/renderer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/page_grade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/size.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <caret line="16" column="103" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="707" column="97" selection-start-line="707" selection-start-column="97" selection-end-line="707" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#365#28619#0" expanded="false" />
+            <element signature="e#885#1561#0" expanded="false" />
+            <element signature="e#1604#2327#0" expanded="false" />
+            <element signature="e#2371#14246#0" expanded="false" />
+            <element signature="e#14298#15033#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/rule_list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="243" selection-start-line="22" selection-start-column="243" selection-end-line="22" selection-end-column="243" />
           <folding />
         </state>
       </provider>

@@ -2,6 +2,19 @@
     font-family: Lato;
 }
 
+.card{
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.card-content{
+    text-overflow: ellipsis;
+}
+
+.card-content span{
+    text-overflow: ellipsis;
+}
+
 .visible{
     visibility: visible; text-align: center; width: 100%;
 }
@@ -9,3 +22,4 @@
 .hidden{
     visibility: hidden; text-align: center; width: 100%;
 }
+

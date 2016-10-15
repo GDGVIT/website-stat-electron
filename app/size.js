@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './card';
 class Size extends React.Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state={
             kbsize:0,
             postdata:"KB"
@@ -10,11 +10,11 @@ class Size extends React.Component{
     }
     render(){
         if(this.props.size>1000) {
-            this.state.kbsize = (this.props.size / 1024/1024);
+            this.state.kbsize = (this.props.size / 1024)/1024;
             console.log('Alham! '+this.props.size+' '+this.state.kbsize);
             this.state.postdata = "KB";
             return(
-                <Card title={this.props.title} content={this.state.kbsize} postdata={this.state.postdata}/>
+                <Card title={this.props.title} content={this.props.size} postdata={this.state.postdata}/>
             );
         }
         else{
@@ -23,7 +23,7 @@ class Size extends React.Component{
             this.state.postdata="MB";
             console.log(this.state.kbsize);
             return(
-                <Card title={this.props.title} content={this.state.kbsize} postdata={this.state.postdata}/>
+                <Card title={this.props.title} content={this.props.size} postdata={this.state.postdata}/>
             );
         }
     }
