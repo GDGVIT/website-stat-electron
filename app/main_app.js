@@ -638,7 +638,7 @@ class MainApp extends React.Component {
                 },
                 error: (xhr, status, err) => {
                     console.error(status, err.toString());
-                    alert("How many times have fuck happened in your life?, Well, this is one of those times.");
+                    alert("Fuck happened! Either the URL is wrong or your connection is lost!");
                 }
             });
         }
@@ -662,7 +662,7 @@ class MainApp extends React.Component {
                 <div className="col m8 push-m2">
                     <div className="card col s12">
                         <div className="card-content row">
-                            <input className="col m12" placeholder="http://" value={this.state.inurl} onChange={this.handleChange}/>
+                                <input type="text" placeholder="mysite.com" value={this.state.inurl} onChange={this.handleChange}/>
                             <input type="submit" className="btn red col m4 push-m4" value="Process" onClick={this.processForm}/>
                         </div>
                     </div>
@@ -670,6 +670,14 @@ class MainApp extends React.Component {
             </form>
             </div>
                 {/*The details will begin from here*/}
+                <div className="row">
+                    <div className="col s4 push-s4">
+                        <div className="progress">
+                            <div className="determinate" style={this.state.progressstyle}></div>
+                        </div>
+                        <PageGrade speed={this.state.datagrade}/>
+                    </div>
+                </div>
                 <div className={this.state.loadervisibility}>{this.state.percent}</div>
                 <Screenshot url={this.state.dataurl} className="col s6"/>
                 <div className="row">
@@ -677,14 +685,7 @@ class MainApp extends React.Component {
                         <Card title={this.state.dataurl} content={this.state.datatitle}/>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col s4 push-s4">
-                        <PageGrade speed={this.state.datagrade}/>
-                        <div className="progress">
-                            <div className="determinate" style={this.state.progressstyle}></div>
-                        </div>
-                    </div>
-                    </div>
+
                 <Size size="32"/>
 
 
@@ -702,13 +703,13 @@ class MainApp extends React.Component {
                     <Card title="Static Resources" content={this.state.datastaticresources} className="red"/>
                 </div>
                 <div className="col s3">
-                    <Card title="Size of HTML" content={this.state.datahtmlbytes} postdata=" bytes"/>
+                    <Size title="Size of HTML" size={this.state.datahtmlbytes}/>
                 </div>
                 <div className="col s3">
                     <Card title="Size of CSS" content={this.state.datacssbytes} postdata=" bytes"/>
                 </div>
                 <div className="col s3">
-                    <Card title="Size of Images" content={this.state.dataimagebytes} postdata=" bytes"/>
+                    <Size title="Size of Images" size={this.state.dataimagebytes} postdata=" bytes"/>
                 </div>
                 <div className="col s3">
                     <Card title="Size of Javascript" content={this.state.datajsbytes} postdata=" bytes"/>
