@@ -13,6 +13,7 @@ app.post('/joke',function (req,res) {
         res.json(JSON.parse(data));
     });
 });*/
+/*
 
 var notif= new.window.Notification('Complete!',{
     body:'Hello!',
@@ -21,4 +22,4 @@ var notif= new.window.Notification('Complete!',{
 
 notif.onclick=function () {
     ipcRenderer.send('focusWindow',main);
-}
+}*/

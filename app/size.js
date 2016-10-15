@@ -4,29 +4,24 @@ class Size extends React.Component{
     constructor(props){
         super(props);
         this.state={
+            size:0,
             kbsize:0,
             postdata:"KB"
         }
     }
     render(){
-        if(this.props.size>1000) {
-            this.state.kbsize = (this.props.size / 1024)/1024;
-            console.log('Alham! '+this.props.size+' '+this.state.kbsize);
-            this.state.postdata = "KB";
+            console.log('Homie me says!');
+            console.log(this.props.size+20);
             return(
-                <Card title={this.props.title} content={this.props.size} postdata={this.state.postdata}/>
+              <div>
+                  <Card content={this.props.size} postdata={this.props.postdata} title={this.props.title}/>
+              </div>
             );
         }
-        else{
-            this.state.kbzise = this.props.size / 1024;
-            console.log('boom boom '+this.props.size+' '+this.state.kbsize);
-            this.state.postdata="MB";
-            console.log(this.state.kbsize);
-            return(
-                <Card title={this.props.title} content={this.props.size} postdata={this.state.postdata}/>
-            );
-        }
-    }
 }
+
+Size.propTypes={
+  size:React.PropTypes.number
+};
 
 export default Size;

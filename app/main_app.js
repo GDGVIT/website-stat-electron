@@ -638,7 +638,7 @@ class MainApp extends React.Component {
                 },
                 error: (xhr, status, err) => {
                     console.error(status, err.toString());
-                    alert("Fuck happened! Either the URL is wrong or your connection is lost!");
+                    alert("Error occured! Either the URL is wrong or your connection is lost!");
                 }
             });
         }
@@ -687,37 +687,42 @@ class MainApp extends React.Component {
                     </div>
                 </div>
 
-
-                <div className="col s3">
-                    <Card title="No. of Resources" content={this.state.dataresources}/>
+                <div className="row">
+                    <div className="col s3">
+                        <Card title="No. of Resources" content={this.state.dataresources}/>
+                    </div>
+                    <div className="col s3">
+                        <Card title="No. of Hosts" content={this.state.datahosts}/>
+                    </div>
+                    <div className="col s3">
+                        {/*TODO: Remove these from Cards and make a new Size card which will convert Bytes to MBs*/}
+                        <Size title="Size" size={this.state.databytes} postdata=" bytes" color="red"/>
+                    </div>
+                    <div className="col s3">
+                        <Card title="Static Resources" content={this.state.datastaticresources} className="red"/>
+                    </div>
                 </div>
-                <div className="col s3">
-                    <Card title="No. of Hosts" content={this.state.datahosts}/>
+                <div className="row">
+                    <div className="col s3">
+                        <Size title="Size of HTML" size={this.state.datahtmlbytes} postdata=" bytes"/>
+                    </div>
+                    <div className="col s3">
+                        <Card title="Size of CSS" content={this.state.datacssbytes} postdata=" bytes"/>
+                    </div>
+                    <div className="col s3">
+                        <Size title="Size of Images" size={this.state.dataimagebytes} postdata=" bytes"/>
+                    </div>
+                    <div className="col s3">
+                        <Card title="Size of Javascript" content={this.state.datajsbytes} postdata=" bytes"/>
+                    </div>
                 </div>
-                <div className="col s3">
-                    {/*TODO: Remove these from Cards and make a new Size card which will convert Bytes to MBs*/}
-                    <Size title="Size" content={this.state.databytes} postdata=" bytes" color="red"/>
-                </div>
-                <div className="col s3">
-                    <Card title="Static Resources" content={this.state.datastaticresources} className="red"/>
-                </div>
-                <div className="col s3">
-                    <Size title="Size of HTML" size={this.state.datahtmlbytes}/>
-                </div>
-                <div className="col s3">
-                    <Card title="Size of CSS" content={this.state.datacssbytes} postdata=" bytes"/>
-                </div>
-                <div className="col s3">
-                    <Size title="Size of Images" size={this.state.dataimagebytes} postdata=" bytes"/>
-                </div>
-                <div className="col s3">
-                    <Card title="Size of Javascript" content={this.state.datajsbytes} postdata=" bytes"/>
-                </div>
-                <div className="col s3">
-                    <Card title="No. of JS files" content={this.state.datajs}/>
-                </div>
-                <div className="col s3">
-                    <Card title="No. of CSS files" content={this.state.datacss}/>
+                <div className="row">
+                    <div className="col s3">
+                        <Card title="No. of JS files" content={this.state.datajs}/>
+                    </div>
+                    <div className="col s3">
+                        <Card title="No. of CSS files" content={this.state.datacss}/>
+                    </div>
                 </div>
                 <Rulelist rules={this.state.datarules}/>
             </div>

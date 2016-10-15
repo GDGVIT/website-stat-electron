@@ -12,6 +12,7 @@
 }
 
 .card-content span{
+    overflow: hidden;
     text-overflow: ellipsis;
 }
 
