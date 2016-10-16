@@ -2,9 +2,14 @@
     font-family: Lato;
 }
 
+body{
+    background:#f0f0f0;
+}
+
 .card{
     overflow: hidden;
     text-overflow:ellipsis;
+    height: 150px;
 }
 
 .card-content{

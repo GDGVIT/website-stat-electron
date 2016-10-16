@@ -6,6 +6,7 @@ import Requests from './requests';
 import Rulelist from './rule_list';
 import PageGrade from './page_grade';
 import Size from './size';
+import Preloader from './preloader';
 class MainApp extends React.Component {
     constructor(){
         super();
@@ -571,8 +572,9 @@ class MainApp extends React.Component {
         e.preventDefault();
         const url=this.state.inurl;
         this.setState({
-            loadervisibility:'hidden'
+            loadervisibility:'visible'
         });
+        console.log(this.state.loadervisibility);
         /*const expression=[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*);
         const regex=new RegExp(expression);*/
         if(1) {
@@ -631,10 +633,11 @@ class MainApp extends React.Component {
                         datajs: data.pageStats.numberJsResources,
                         datacss: data.pageStats.numberCssResources,
                         datarules: data.formattedResults.ruleResults,
-                        loadervisibility:'visible',
+                        loadervisibility:'hidden'
                     });
                     console.log(this.state.datagrade);
                     this.updateProgress();
+                    this.removePreloader();
                 },
                 error: (xhr, status, err) => {
                     console.error(status, err.toString());
@@ -654,7 +657,26 @@ class MainApp extends React.Component {
         });
         console.log(progresstyle);
     }
+    removePreloader(){
+        this.setState({
+           loadervisibility:'hidden'
+        });
+    }
+    checkremovePreloader(){
+        if(this.state.loadervisibility==='hidden'){
+            this.removePreloader();
+        }
+    }
     render() {
+        console.log(this.state.loadervisibility);
+        var loader;
+        if(this.state.loadervisibility==='visible'){
+            loader=<Preloader/>;
+            this.checkremovePreloader();
+        }
+        else if(this.state.loadervisibility==='hidden'){
+            loader=<div>Success!</div>;
+        }
         return (
             <div>
             <div className="row col s12">
@@ -668,6 +690,9 @@ class MainApp extends React.Component {
                     </div>
                 </div>
             </form>
+                <div className="row center">
+                    {loader}
+                </div>
             </div>
                 {/*The details will begin from here*/}
                 <div className="row">

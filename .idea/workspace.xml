@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e60352-7b8f-4c01-be46-749544b7ff3d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/preloader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main_app.js" afterPath="$PROJECT_DIR$/app/main_app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/rule_list.js" afterPath="$PROJECT_DIR$/app/rule_list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/size.js" afterPath="$PROJECT_DIR$/app/size.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bundle.js" afterPath="$PROJECT_DIR$/public/js/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renderer.js" afterPath="$PROJECT_DIR$/renderer.js" />
     </list>
     <ignored path="website-stat-electron.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="size.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="size.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/size.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="198">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -45,8 +45,8 @@
       <file leaf-file-name="card.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/card.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="126">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -55,16 +55,46 @@
       <file leaf-file-name="main_app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main_app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="725" column="16" selection-start-line="725" selection-start-column="16" selection-end-line="725" selection-end-column="16" />
+            <state relative-caret-position="331">
+              <caret line="677" column="32" selection-start-line="677" selection-start-column="32" selection-end-line="677" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#365#28619#0" expanded="false" />
-                <element signature="e#885#1561#0" expanded="false" />
-                <element signature="e#1604#2327#0" expanded="false" />
-                <element signature="e#2371#14246#0" expanded="false" />
-                <element signature="e#14298#15033#0" expanded="false" />
+                <element signature="e#402#28656#0" expanded="false" />
+                <element signature="e#922#1598#0" expanded="false" />
+                <element signature="e#1641#2364#0" expanded="false" />
+                <element signature="e#2408#14283#0" expanded="false" />
+                <element signature="e#14335#15070#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preloader.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/preloader.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="score.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/score.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screenshot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/screenshot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +102,7 @@
       <file leaf-file-name="rule_list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/rule_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="18">
               <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
               <folding />
             </state>
@@ -82,28 +112,8 @@
       <file leaf-file-name="page_grade.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/page_grade.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/bundle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="108" />
+            <state relative-caret-position="360">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -119,21 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="144">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -178,11 +178,13 @@
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/app/card.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/renderer.js" />
-        <option value="$PROJECT_DIR$/app/main_app.js" />
         <option value="$PROJECT_DIR$/app/rule_list.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/stylesheets/preloader.js" />
         <option value="$PROJECT_DIR$/app/size.js" />
+        <option value="$PROJECT_DIR$/app/main_app.js" />
+        <option value="$PROJECT_DIR$/app/preloader.js" />
       </list>
     </option>
   </component>
@@ -302,15 +304,15 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="size&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/size.js&#10;card&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/card.js&#10;main&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;rende&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;style&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;main_app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;page&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/page_grade.js&#10;render&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;Rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;index&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;mock&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;inde&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;app.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;packa&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;bund&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/js/bundle.js&#10;warni&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;contributo&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/contributor.js&#10;warnin&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;joke&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/joke.json&#10;styl&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;READ&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;moc&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;package.json&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;package&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/bower_components/materialize/package.js&#10;ap&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;st&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;req&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;re&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;urlbar&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;url&#9;null&#9;null&#10;README&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;renderer.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;load&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;scree&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;ur&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;scre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;oad&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;cre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;rend&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;renderer&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js" />
+    <property name="SearchEverywhereHistoryKey" value="page&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/page_grade.js&#10;main&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;styl&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;style&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;size&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/size.js&#10;card&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/card.js&#10;rende&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;main_app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;render&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;Rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;index&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;mock&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;inde&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;app.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;packa&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;bund&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/js/bundle.js&#10;warni&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;contributo&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/contributor.js&#10;warnin&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;joke&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/joke.json&#10;READ&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;moc&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;package.json&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;package&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/bower_components/materialize/package.js&#10;ap&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;st&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;req&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;re&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;urlbar&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;url&#9;null&#9;null&#10;README&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;renderer.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;load&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;scree&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;ur&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;scre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;oad&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;cre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;rend&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;renderer&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
@@ -400,12 +402,12 @@
       <workItem from="1476379393364" duration="512000" />
       <workItem from="1476416394725" duration="5340000" />
       <workItem from="1476503709098" duration="679000" />
-      <workItem from="1476504871698" duration="22482000" />
+      <workItem from="1476504871698" duration="28612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129804000" />
+    <option name="totallyTimeSpent" value="135934000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,13 +459,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/loadtime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/mock/joke.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -513,11 +508,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#365#28619#0" expanded="false" />
-            <element signature="e#885#1561#0" expanded="false" />
-            <element signature="e#1604#2327#0" expanded="false" />
-            <element signature="e#2371#14246#0" expanded="false" />
-            <element signature="e#14298#15033#0" expanded="false" />
+            <element signature="e#402#28656#0" expanded="false" />
+            <element signature="e#922#1598#0" expanded="false" />
+            <element signature="e#1641#2364#0" expanded="false" />
+            <element signature="e#2408#14283#0" expanded="false" />
+            <element signature="e#14335#15070#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -578,11 +573,11 @@
           <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#365#28619#0" expanded="false" />
-            <element signature="e#885#1561#0" expanded="false" />
-            <element signature="e#1604#2327#0" expanded="false" />
-            <element signature="e#2371#14246#0" expanded="false" />
-            <element signature="e#14298#15033#0" expanded="false" />
+            <element signature="e#402#28656#0" expanded="false" />
+            <element signature="e#922#1598#0" expanded="false" />
+            <element signature="e#1641#2364#0" expanded="false" />
+            <element signature="e#2408#14283#0" expanded="false" />
+            <element signature="e#14335#15070#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -623,24 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/screenshot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/loadtime.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/score.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -768,7 +749,7 @@
     <entry file="file://$PROJECT_DIR$/public/js/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -789,22 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/page_grade.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/renderer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -813,44 +778,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/card.js">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="144">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/main_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="725" column="16" selection-start-line="725" selection-start-column="16" selection-end-line="725" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#365#28619#0" expanded="false" />
-            <element signature="e#885#1561#0" expanded="false" />
-            <element signature="e#1604#2327#0" expanded="false" />
-            <element signature="e#2371#14246#0" expanded="false" />
-            <element signature="e#14298#15033#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/rule_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="18">
           <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/score.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/screenshot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/page_grade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/size.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="677" column="32" selection-start-line="677" selection-start-column="32" selection-end-line="677" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#402#28656#0" expanded="false" />
+            <element signature="e#922#1598#0" expanded="false" />
+            <element signature="e#1641#2364#0" expanded="false" />
+            <element signature="e#2408#14283#0" expanded="false" />
+            <element signature="e#14335#15070#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>

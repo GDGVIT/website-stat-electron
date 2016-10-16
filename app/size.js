@@ -10,8 +10,6 @@ class Size extends React.Component{
         }
     }
     render(){
-            console.log('Homie me says!');
-            console.log(this.props.size+20);
             return(
               <div>
                   <Card content={this.props.size} postdata={this.props.postdata} title={this.props.title}/>
