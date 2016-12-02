@@ -7,7 +7,6 @@ import Rulelist from './rule_list';
 import PageGrade from './page_grade';
 import Size from './size';
 import Preloader from './preloader';
-import Screenshot from './screenshot';
 class MainApp extends React.Component {
     constructor(){
         super();
