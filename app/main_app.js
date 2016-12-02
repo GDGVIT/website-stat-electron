@@ -7,6 +7,7 @@ import Rulelist from './rule_list';
 import PageGrade from './page_grade';
 import Size from './size';
 import Preloader from './preloader';
+import Screenshot from './screenshot';
 class MainApp extends React.Component {
     constructor(){
         super();
@@ -579,7 +580,7 @@ class MainApp extends React.Component {
         const regex=new RegExp(expression);*/
         if(1) {
             $.ajax({
-                url: 'https://www.googleapis.com/pagespeedonline/v2/runPagespeed?url=http%3A%2F%2F' + url + '&key=AIzaSyBKuUWqMYnnvt4JpJzL55a7MsYns7Jzxv8',
+                url: 'https://www.googleapis.com/pagespeedonline/v2/runPagespeed?url=http%3A%2F%2F' + url + '&screenshot=true&key=AIzaSyBKuUWqMYnnvt4JpJzL55a7MsYns7Jzxv8',
                 /*url:'./public/mock/mock_webdata.json',*/
                 dataType: 'json',
                 cache: false,
@@ -633,8 +634,10 @@ class MainApp extends React.Component {
                         datajs: data.pageStats.numberJsResources,
                         datacss: data.pageStats.numberCssResources,
                         datarules: data.formattedResults.ruleResults,
+                        screenshot:data.screenshot.data,
                         loadervisibility:'hidden'
                     });
+
                     console.log(this.state.datagrade);
                     this.updateProgress();
                     this.removePreloader();
@@ -692,6 +695,9 @@ class MainApp extends React.Component {
             </form>
                 <div className="row center">
                     {loader}
+                    <div className="col s12">
+                        <Screenshot base64={this.state.screenshot}/>
+                    </div>
                 </div>
             </div>
                 {/*The details will begin from here*/}
@@ -750,6 +756,10 @@ class MainApp extends React.Component {
                     </div>
                 </div>
                 <Rulelist rules={this.state.datarules}/>
+
+                <div className="row">
+                    The list of files should come up here.
+                </div>
             </div>
         );
     }

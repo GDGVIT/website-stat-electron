@@ -6,7 +6,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
-    "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose",  
+    "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose",
     "postinstall": "install-app-deps",
     "dev": "NODE_ENV='development' npm run start",
     "dist": "build -mwl --x64 --ia32"
@@ -28,8 +28,6 @@
     "react-dom": "^0.14.7"
   },
   "devDependencies": {
-    "electron-builder": "^7.21.0",
     "electron-react-devtools": "^0.4.0"
-  },
-  "build": {}
+  }
 }

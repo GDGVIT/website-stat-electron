@@ -431,81 +431,83 @@
 ]
 },
 "OptimizeImages": {
-"localizedRuleName": "Optimize images",
-"ruleImpact": 136.32600000000002,
-"groups": [
-"SPEED"
-],
-"summary": {
-"format": "Properly formatting and compressing images can save many bytes of data."
+	"localizedRuleName": "Optimize images",
+	"ruleImpact": 136.32600000000002,
+	"groups": [
+		"SPEED"
+	],
+	"summary": {
+		"format": "Properly formatting and compressing images can save many bytes of data."
+	},
+	"urlBlocks": [
+		{
+		"header": {
+		"format": "{{BEGIN_LINK}}Optimize the following images{{END_LINK}} to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+			"args": [
+				{
+				"type": "HYPERLINK",
+				"key": "LINK",
+				"value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+		},
+		{
+			"type": "BYTES",
+			"key": "SIZE_IN_BYTES",
+			"value": "1.3MiB"
+		},
+		{
+			"type": "PERCENTAGE",
+			"key": "PERCENTAGE",
+			"value": "93%"
+		}
+	]
 },
-"urlBlocks": [
-{
-"header": {
-"format": "{{BEGIN_LINK}}Optimize the following images{{END_LINK}} to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
-"args": [
-{
-"type": "HYPERLINK",
-"key": "LINK",
-"value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
-},
-{
-"type": "BYTES",
-"key": "SIZE_IN_BYTES",
-"value": "1.3MiB"
-},
-{
-"type": "PERCENTAGE",
-"key": "PERCENTAGE",
-"value": "93%"
-}
-]
-},
-"urls": [
-{
-"result": {
-"format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
-"args": [
-{
-"type": "URL",
-"key": "URL",
-"value": "http://rahulakrishna.github.io/images/rkbkrs.png"
-},
-{
-"type": "BYTES",
-"key": "SIZE_IN_BYTES",
-"value": "829.8KiB"
-},
-{
-"type": "PERCENTAGE",
-"key": "PERCENTAGE",
-"value": "93%"
-}
-]
-}
-},
-{
-"result": {
-"format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
-"args": [
-{
-"type": "URL",
-"key": "URL",
-"value": "http://rahulakrishna.github.io/images/rkbadg.png"
-},
-{
-"type": "BYTES",
-"key": "SIZE_IN_BYTES",
-"value": "430.3KiB"
-},
-{
-"type": "PERCENTAGE",
-"key": "PERCENTAGE",
-"value": "94%"
-}
-]
-}
-},
+		"urls": [
+		{
+		"result": 
+		{
+			"format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+			"args": [
+				{
+					"type": "URL",
+					"key": "URL",
+					"value": "http://rahulakrishna.github.io/images/rkbkrs.png"
+				},
+				{
+					"type": "BYTES",
+					"key": "SIZE_IN_BYTES",
+					"value": "829.8KiB"
+				},
+				{
+					"type": "PERCENTAGE",
+					"key": "PERCENTAGE",
+					"value": "93%"
+				}
+			]
+		}
+		},
+		{
+		"result": 
+		{
+			"format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+			"args": [
+				{
+					"type": "URL",
+					"key": "URL",
+					"value": "http://rahulakrishna.github.io/images/rkbadg.png"
+				},
+				{
+					"type": "BYTES",
+					"key": "SIZE_IN_BYTES",
+					"value": "430.3KiB"
+				},
+				{
+					"type": "PERCENTAGE",
+					"key": "PERCENTAGE",
+					"value": "94%"
+				}
+			]
+		}
+		},
 {
 "result": {
 "format": "Compressing and resizing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e60352-7b8f-4c01-be46-749544b7ff3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/preloader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main_app.js" afterPath="$PROJECT_DIR$/app/main_app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/size.js" afterPath="$PROJECT_DIR$/app/size.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bundle.js" afterPath="$PROJECT_DIR$/public/js/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
     </list>
     <ignored path="website-stat-electron.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +30,8 @@
       <file leaf-file-name="size.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/size.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="72">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -55,8 +52,8 @@
       <file leaf-file-name="main_app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main_app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="677" column="32" selection-start-line="677" selection-start-column="32" selection-end-line="677" selection-end-column="32" />
+            <state relative-caret-position="-342">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#402#28656#0" expanded="false" />
@@ -69,11 +66,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preloader.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mock_webdata.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/mock/mock_webdata.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3312">
+              <caret line="373" column="20" selection-start-line="373" selection-start-column="20" selection-end-line="373" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preloader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/preloader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="126">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -99,41 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rule_list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/rule_list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page_grade.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/page_grade.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="renderer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renderer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -167,12 +164,10 @@
         <option value="$PROJECT_DIR$/app/url_bar.js" />
         <option value="$PROJECT_DIR$/app/main.js" />
         <option value="$PROJECT_DIR$/rule_list.js" />
-        <option value="$PROJECT_DIR$/public/mock/mock_webdata.json" />
         <option value="$PROJECT_DIR$/app/page_grade.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/loading.js" />
         <option value="$PROJECT_DIR$/public/js/bundle.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/main_app_semantic.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
@@ -183,8 +178,11 @@
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/preloader.js" />
         <option value="$PROJECT_DIR$/app/size.js" />
-        <option value="$PROJECT_DIR$/app/main_app.js" />
         <option value="$PROJECT_DIR$/app/preloader.js" />
+        <option value="$PROJECT_DIR$/app/main_app.js" />
+        <option value="$PROJECT_DIR$/app/package.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/mock/mock_webdata.json" />
       </list>
     </option>
   </component>
@@ -200,9 +198,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="41" />
+    <option name="x" value="1366" />
     <option name="width" value="1366" />
-    <option name="height" value="727" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -229,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,16 +294,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Chocolate/chocolate" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Redux/basic" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="page&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/page_grade.js&#10;main&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;styl&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;style&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;size&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/size.js&#10;card&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/card.js&#10;rende&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;main_app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;render&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;Rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;index&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;mock&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;inde&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;app.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;packa&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;bund&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/js/bundle.js&#10;warni&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;contributo&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/contributor.js&#10;warnin&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;joke&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/joke.json&#10;READ&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;moc&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;package.json&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;package&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/bower_components/materialize/package.js&#10;ap&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;st&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;req&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;re&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;urlbar&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;url&#9;null&#9;null&#10;README&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;renderer.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;load&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;scree&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;ur&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;scre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;oad&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;cre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;rend&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;renderer&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js" />
+    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;packa&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;mock&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;app/package&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/package.json&#10;page&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/page_grade.js&#10;styl&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;style&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;size&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/size.js&#10;card&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/card.js&#10;rende&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;main_app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/main_app.js&#10;render&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;Rule&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/rule_list.js&#10;index&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;app&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;inde&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/index.html&#10;app.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;bund&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/js/bundle.js&#10;warni&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;contributo&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/contributor.js&#10;warnin&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/node_modules/fbjs/lib/warning.js&#10;joke&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/joke.json&#10;READ&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;moc&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/mock/mock_webdata.json&#10;package.json&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/package.json&#10;package&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/bower_components/materialize/package.js&#10;ap&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/app.js&#10;st&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/public/stylesheets/style.css&#10;req&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;re&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/requests.js&#10;urlbar&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;url&#9;null&#9;null&#10;README&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/README.md&#10;renderer.js&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;load&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;scree&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;ur&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/url_bar.js&#10;scre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;oad&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/loadtime.js&#10;cre&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/app/screenshot.js&#10;rend&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js&#10;renderer&#9;FILE&#9;file:///home/rahul/Electron/website-stat-electron/renderer.js" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -403,11 +401,14 @@
       <workItem from="1476416394725" duration="5340000" />
       <workItem from="1476503709098" duration="679000" />
       <workItem from="1476504871698" duration="28612000" />
+      <workItem from="1478276743256" duration="2276000" />
+      <workItem from="1480373900109" duration="464000" />
+      <workItem from="1480395542143" duration="3157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135934000" />
+    <option name="totallyTimeSpent" value="141831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,7 +420,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="41" width="1366" height="727" extended-state="7" />
+    <frame x="1366" y="0" width="1366" height="741" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24869695" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -427,18 +428,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -459,13 +460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/mock/joke.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -484,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -549,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,29 +711,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main_app_semantic.js" />
-    <entry file="file://$PROJECT_DIR$/public/mock/mock_webdata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="194" column="11" selection-start-line="194" selection-start-column="11" selection-end-line="194" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="108" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,23 +743,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="198">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/rule_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="324">
           <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,18 +794,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/size.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/main_app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="677" column="32" selection-start-line="677" selection-start-column="32" selection-end-line="677" selection-end-column="32" />
+        <state relative-caret-position="-342">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#402#28656#0" expanded="false" />
@@ -851,10 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/preloader.js">
+    <entry file="file://$PROJECT_DIR$/public/mock/mock_webdata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        <state relative-caret-position="3312">
+          <caret line="373" column="20" selection-start-line="373" selection-start-column="20" selection-end-line="373" selection-end-column="20" />
           <folding />
         </state>
       </provider>
