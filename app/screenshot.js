@@ -7,7 +7,7 @@ class Screenshot extends React.Component{
 		return(
 			<div className="row">
 				<div className="center">
-					The Screenshot should come up here! {this.props.base64}
+					// The Screenshot should come up here!
 				</div>
 			</div>
 		)

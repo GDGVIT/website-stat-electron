@@ -7,6 +7,8 @@ import Rulelist from './rule_list';
 import PageGrade from './page_grade';
 import Size from './size';
 import Preloader from './preloader';
+import CircularProgressbar from 'react-circular-progressbar'
+
 class MainApp extends React.Component {
     constructor(){
         super();
@@ -703,10 +705,9 @@ class MainApp extends React.Component {
                 <div className="row">
                     <h3 className="center">Summary</h3>
                     <div className="col s4 push-s4">
-                        <div className="progress">
-                            <div className="determinate" style={this.state.progressstyle}></div>
-                        </div>
+                        <CircularProgressbar percentage={this.state.datagrade}/>
                         <PageGrade speed={this.state.datagrade}/>
+
                     </div>
                 </div>
                 <div className={this.state.loadervisibility}>{this.state.percent}</div>

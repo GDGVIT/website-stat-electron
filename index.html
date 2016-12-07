@@ -5,6 +5,24 @@
     <title>Website Stats</title>
     <link rel="stylesheet" type="text/css" href="bower_components/materialize/dist/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+    <style>
+    .CircularProgressbar .CircularProgressbar-path {
+        stroke: #3e98c7;
+        stroke-linecap: round;
+        transition: stroke-dashoffset 0.5s ease 0s;
+    }
+
+    .CircularProgressbar .CircularProgressbar-trail {
+        stroke: #d6d6d6;
+    }
+
+    .CircularProgressbar .CircularProgressbar-text {
+        fill: #3e98c7;
+        font-size: 20px;
+        dominant-baseline: middle;
+        text-anchor: middle;
+    }
+    </style>
   </head>
   <body>
     <div id="content"></div>
