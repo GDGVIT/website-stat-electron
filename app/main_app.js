@@ -704,10 +704,13 @@ class MainApp extends React.Component {
                 {/*The details will begin from here*/}
                 <div className="row">
                     <h3 className="center">Summary</h3>
+                    <div className="col s2 push-s5">
+                      <CircularProgressbar percentage={this.state.datagrade}/>
+                    </div>
+                    </div>
+                    <div className="row center">
                     <div className="col s4 push-s4">
-                        <CircularProgressbar percentage={this.state.datagrade}/>
                         <PageGrade speed={this.state.datagrade}/>
-
                     </div>
                 </div>
                 <div className={this.state.loadervisibility}>{this.state.percent}</div>
