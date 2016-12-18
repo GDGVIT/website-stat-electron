@@ -30,6 +30,7 @@ class MainApp extends React.Component {
             datajs:0,
             datacss:0,
             loadervisibility:'hidden',
+            screenshot:'will come up here',
             datarules: {"AvoidLandingPageRedirects": {
                 "localizedRuleName": "Avoid landing page redirects",
                 "ruleImpact": 0,
@@ -639,7 +640,7 @@ class MainApp extends React.Component {
                         loadervisibility:'hidden'
                     });
 
-                    console.log(this.state.datagrade);
+                    console.log(this.state.screenshot);
                     this.updateProgress();
                     this.removePreloader();
                 },
@@ -696,8 +697,8 @@ class MainApp extends React.Component {
             </form>
                 <div className="row center">
                     {loader}
-                    <div className="col s12">
-                        <Screenshot base64={this.state.screenshot}/>
+                    <div className="col s6 push-s3">
+                        <Screenshot className="col s6 push-s6" base64={this.state.screenshot}/>
                     </div>
                 </div>
             </div>
@@ -714,7 +715,6 @@ class MainApp extends React.Component {
                     </div>
                 </div>
                 <div className={this.state.loadervisibility}>{this.state.percent}</div>
-                {/*<Screenshot url={this.state.dataurl} className="col s6"/>*/}
                 <div className="row">
                     <div className="col s8 push-s2">
                         <Card title={this.state.dataurl} content={this.state.datatitle}/>
