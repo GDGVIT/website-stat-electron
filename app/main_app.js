@@ -714,12 +714,9 @@ class MainApp extends React.Component {
                         <PageGrade speed={this.state.datagrade}/>
                     </div>
                 </div>
-                <div className={this.state.loadervisibility}>{this.state.percent}</div>
-                <div className="row">
                     <div className="col s8 push-s2">
                         <Card title={this.state.dataurl} content={this.state.datatitle}/>
                     </div>
-                </div>
 
                 <div className="row">
                     <div className="col s3">
@@ -763,7 +760,7 @@ class MainApp extends React.Component {
                 <div className="row">
                     The list of files should come up here.
                 </div>
-            </div>
+                </div>
         );
     }
 }
