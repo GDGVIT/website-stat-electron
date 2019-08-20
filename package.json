@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "electron-builder": "^7.21.0",
-    "electron-react-devtools": "^0.4.0"
+    "electron-react-devtools": "^0.5.3"
   },
   "build": {}
 }
