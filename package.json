@@ -23,7 +23,7 @@
     "electron-prebuilt": "^1.4.13",
     "electron-reload": "^1.5.0",
     "jquery": "3.0.0",
-    "react": "^0.14.8",
+    "react": "^16.9.0",
     "react-autocomplete": "^1.0.0-rc2",
     "react-circular-progressbar": "^2.0.2",
     "react-dom": "^0.14.7"
