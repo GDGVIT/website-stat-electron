@@ -20,9 +20,9 @@
     "babelify": "^7.2.0",
     "chart.js": "^2.3.0",
     "classnames": "^2.2.3",
+    "jquery": "3.5.1",
     "electron-prebuilt": "^0.37.8",
     "electron-reload": "^0.3.0",
-    "jquery": "3.0.0",
     "react": "^0.14.8",
     "react-autocomplete": "^1.0.0-rc2",
     "react-dom": "^0.14.7"
