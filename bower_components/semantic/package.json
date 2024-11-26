@@ -60,7 +60,7 @@
     "gulp-concat-css": "^2.2.0",
     "gulp-copy": "0.0.2",
     "gulp-dedupe": "0.0.2",
-    "gulp-flatten": "^0.2.0",
+    "gulp-flatten": "^0.4.0",
     "gulp-header": "^1.8.2",
     "gulp-help": "^1.6.1",
     "gulp-if": "^2.0.1",
